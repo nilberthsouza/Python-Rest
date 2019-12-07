@@ -11,4 +11,15 @@ def hello_world():
 
 @app.route('/notes',methods=['GET'])
 def shownotes():
-    not
+
+@app.route('/notes',methods=['POST'])
+def add_notes():
+    db.insert(title, body)
+    
+@app.route('remove/<id>',methods=['POST'])
+def remove(<id>):
+    db.remove(id)
+    pass
+
+
+
