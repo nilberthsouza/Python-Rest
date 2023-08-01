@@ -11,6 +11,7 @@ def hello_world():
 
 @app.route('/notes',methods=['GET'])
 def shownotes():
+    pass
 
 @app.route('/notes',methods=['POST'])
 def add_notes():
